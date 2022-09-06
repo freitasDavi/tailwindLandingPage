@@ -8,7 +8,13 @@ module.exports = {
       },
       colors: {
         primary: "#3E82FC"
+      },
+      backgroundImage: {
+        Hero:"url('/src/assets/Background.png')",
       }
+      // backgroundImage: {
+      //   Hero: "url('assets/Background.png')"
+      // }
     },
   },
   plugins: [],
