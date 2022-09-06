@@ -7,7 +7,8 @@ module.exports = {
         Poppins: "Poppins",
       },
       colors: {
-        primary: "#3E82FC"
+        primary: "#3E82FC",
+        lightrimary: "#ECF3FF",
       },
       backgroundImage: {
         Hero:"url('/src/assets/Background.png')",

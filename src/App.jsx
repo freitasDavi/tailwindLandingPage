@@ -5,6 +5,7 @@ import img2 from "./assets/img2_1.jpg";
 import img3 from "./assets/img3_1.jpg";
 import { Companies } from "./components/Companies";
 import { Review } from "./components/Review";
+import { Footer } from "./components/Footer/Footer";
 
 function App() {
   const contents = [
@@ -35,6 +36,7 @@ function App() {
       <Blog content={contents[1]} alternative={true} />
       <Blog content={contents[2]}/>
       <Review />
+      <Footer />
     </div>
   )
 }
